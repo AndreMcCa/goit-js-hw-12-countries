@@ -73,6 +73,14 @@ section {
     10px 10px 15px rgba(70, 70, 70, 0.22);
 }
 
+.countries-list {
+  font-size: 24px;
+}
+
+.countries-list li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
 .country-name {
   margin-bottom: 30px;
 
